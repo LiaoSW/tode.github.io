@@ -140,22 +140,22 @@ sections:
 
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
+    title: 联系我们
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      有商业合作需求？ 想要加入我们？ 欢迎给我们来电或发送邮件
+      我们会尽快与您取得联系！
     actions:
-    - title: +1 (202) 555-014
+    - title: +86 (025) 6604-2025
       icon: fa-phone
-    - title: E-Mail
+    - title: Email
       icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: fa-twitter
+      url: mailto:admin@tode.ltd
+    - title: weibo
+      icon: fa-weibo
       icon_type: fab
       url: '#'
-    - title: Facebook
-      icon: fa-facebook
+    - title: weixin
+      icon: fa-weixin
       icon_type: fab
       url: '#'
 
