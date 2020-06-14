@@ -1,12 +1,11 @@
 ---
 layout: home
 header:
-  title: World Leading Technology of Digital Energy Provider
+  title: 全球领先的数字能源技术提供商
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    帮助用户实现数字能源转型，为用户在电力市场中掌握主动！
   action: # action button is optional
-    label: Find Out More
+    label: 了解更多
     url: '#about'
 
 
@@ -14,8 +13,9 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: 关于我们
+    text: 南京图德科技有限公司坐落于南京市栖霞区紫东国际创意园，成立于2020年4月，是一家基于人工智能的数字能源技术解决方案提供商，针对电力市场、电网规划以及能源系统运行分析提供成熟解决方案，同时提供大数据分析、能源行业咨询、电力市场培训等服务。
+
     actions:
       - title: Get Started!
         url: '#page-top'
