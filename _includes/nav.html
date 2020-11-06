@@ -9,6 +9,15 @@
         {% for item in site.data.menus.header  %}
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% if item.submenus %}
+            <ul class="nav-submenus">
+              {% for submenu in item.submenus %}
+                <li class="nav-item">
+                   <a class="nav-link js-scroll-trigger" href="{{ submenu.url | relative_url }}">{{ submenu.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
           </li>
         {% endfor %}
       </ul>
